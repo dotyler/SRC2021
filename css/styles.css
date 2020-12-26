@@ -54,6 +54,184 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li + li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #009961;
+  line-height: 1;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #f4623a;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #f4623a;
+}
+
+.about .content .btn-learn-more:hover {
+  background: #f4623a;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/*--------------------------------------------------------------
+# Faq
+--------------------------------------------------------------*/
+.faq {
+  padding: 0;
+}
+
+.faq .content {
+  padding: 60px 100px 0 100px;
+}
+
+.faq .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.faq .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.faq .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.faq .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 400px;
+}
+
+.faq .accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+.faq .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .accordion-list li + li {
+  margin-top: 15px;
+}
+
+.faq .accordion-list li {
+  padding: 20px;
+  background: #fefefe;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  border-radius: 4px;
+}
+
+.faq .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+}
+
+.faq .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .accordion-list .icon-show {
+  display: none;
+}
+
+.faq .accordion-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .accordion-list a.collapsed:hover {
+  color: #009961;
+}
+
+.faq .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .faq .content, .faq .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .faq {
+    /* img {
+      padding-top: 30px;
+    } */
+  }
+  .faq .content {
+    padding-top: 30px;
+  }
+  .faq .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+
 
 /* Tyler - adding magnifine glass */
 
@@ -3913,6 +4091,7 @@ input[type=button].btn-block {
   cursor: default;
 }
 
+
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
@@ -4337,6 +4516,14 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+
+
+
+
+
+
+
+
 
 .card {
   position: relative;
@@ -10029,6 +10216,7 @@ hr.light {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  margin: 15px;
 }
 
 .page-section {
@@ -10143,6 +10331,7 @@ header.hero h1 {
   display: block;
   overflow: hidden;
   position: relative;
+  align-items: center;
 }
 
 #hero .play-btn::after {
