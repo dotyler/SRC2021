@@ -10496,7 +10496,7 @@ header.hero {
   /* Gradient */ /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/hero_graphic.jpg"); */
 
   /* Removed Gradient */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0) 100%), url("../assets/img/hero_graphic.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0) 100%), url("../assets/img/SRC_HERO.png");
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0) 100%), url("../assets/img/hero graphic_background.jpg"); */
 
 
