@@ -329,7 +329,7 @@ html {
 
 .faq .content p {
   font-size: 15px;
-  color: #848484;
+  color: var;
 }
 
 .faq .img {
@@ -354,7 +354,7 @@ html {
 
 .faq .accordion-list li {
   padding: 20px;
-  background: #fefefe;
+  background: var(--light);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   border-radius: 4px;
 }
@@ -387,11 +387,11 @@ html {
 }
 
 .faq .accordion-list a.collapsed {
-  color: #343a40;
+  color: var(--gray-dark);
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #009961;
+  color: var(--dark-orange);
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -6595,7 +6595,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: var(--gray-dark) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10508,7 +10508,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: var(--deep-sky-blue);
+  border-color: var(--dark-orange);
 }
 
 hr.light {
@@ -10530,7 +10530,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 #mainNav {
