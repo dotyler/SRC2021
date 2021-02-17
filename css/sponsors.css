@@ -53,7 +53,7 @@ section .section-title {
     -o-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    border-radius: .25rem;
+    /*border-radius: .25rem;*/
 }
 
 .image-flip:hover .frontside,
@@ -123,9 +123,11 @@ section .section-title {
     min-height: 312px;
 }
 
+/* Card Buttons */
 .backside .card a {
     font-size: 18px;
-    color: var(--dark-orange) !important;
+    color: #FFF !important;
+
 }
 
 .frontside .card .card-title,
@@ -134,7 +136,10 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-    width: 120px;
+    /*width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 50%;*/
+    width: auto;
+    max-height: 120px;
+    height: auto;
 }
