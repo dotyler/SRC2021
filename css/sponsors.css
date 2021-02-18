@@ -5,18 +5,29 @@
     background: #eee !important;
 }
 
+:root {
+  /* Site var colors */
+  --deep-sky-blue: #03a9f4;
+  --dark-orange: #f79007;
+  --light-sea-green: #00bf87; 
+  --blue-violet: #6632ff;
+  /* End of Site var colors */
+
+  }
+  
+
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
+    background-color: var(--deep-sky-blue);
+    border-color: var(--deep-sky-blue);
     box-shadow: none;
     outline: none;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color:var(--dark-orange);
+    border-color:var(--dark-orange);
 }
 
 section {
@@ -25,7 +36,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color:var(--dark-orange);
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -42,7 +53,7 @@ section .section-title {
     -o-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    border-radius: .25rem;
+    /*border-radius: .25rem;*/
 }
 
 .image-flip:hover .frontside,
@@ -112,18 +123,23 @@ section .section-title {
     min-height: 312px;
 }
 
+/* Card Buttons */
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #FFF !important;
+
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: var(--dark-orange) !important;
 }
 
 .frontside .card .card-body img {
-    width: 120px;
+    /*width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 50%;*/
+    width: auto;
+    max-height: 120px;
+    height: auto;
 }
