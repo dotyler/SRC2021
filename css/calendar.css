@@ -1,4 +1,15 @@
 
+:root {
+    /* Site var colors */
+    --deep-sky-blue: #03a9f4;
+    --dark-orange: #f79007;
+    --dark-orange-hover: #f4623af4;
+    --light-sea-green: #00bf87; 
+    --blue-violet: #6632ff;
+    /* End of Site var colors */
+  
+    }
+
 .schedule-warp{
     padding-right:20px;
     padding-left:20px;
@@ -13,7 +24,7 @@
 }
 .schedule-warp:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,.07);
-    border: solid 1px #f4623af4;
+    border: solid 1px var(--dark-orange-hover);
 }
 .schedule{
     padding:100px 0px;
@@ -22,7 +33,7 @@
 }
 .schedule-tag{
     color:#fff;
-    background-color: #f4623a;
+    background-color: var(--dark-orange);
     padding:3px 8px;
     margin-right: 15px;
     width: 110px;
@@ -46,7 +57,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .schedule-card:hover:after {
-    background: #f4623a;
+    background: var(--dark-orange);
     width: 25px;
 }
 .schedule-card:after {
@@ -72,7 +83,7 @@
     -webkit-align-items: center;
     align-items: center;
     padding: 10px 20px;
-    color: #f4623a;
+    color: var(--dark-orange);
     transition: all 0.2s ease-in;
 /*    justify-content: center;*/
 }
@@ -81,5 +92,5 @@
     margin-bottom:50px;
     font-weight: bold;
     font-size: 20px;
-    color: #f4623a;    
+    color: var(--dark-orange);   
     }

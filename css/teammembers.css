@@ -1,3 +1,6 @@
+
+
+
 .row.heading h2 {
     color: #fff;
     font-size: 52.52px;
@@ -6,7 +9,7 @@
     text-align: center;
     margin: 0 0 40px;
     padding-bottom: 20px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 ul{
   margin:0;
@@ -83,7 +86,7 @@ ul{
    font-size:20px; 
    font-weight:500; 
    padding:6px 0;
-   text-transform:uppercase;
+   /*text-transform:uppercase;*/
 }
 .ourteam .cnt-block h3 a{
   text-decoration:none;
