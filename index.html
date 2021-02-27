@@ -300,15 +300,13 @@
         function myFunction() {
             var x = document.getElementById("myDIV");
             var y = document.getElementById("myDIV2");
-            y.style.display = "none";
+            
             if (x.style.display === "none") {
                 x.style.display = "block";
                 y.style.display = "none";
-
             } else {
                 x.style.display = "none";
                 y.style.display = "block";
-
             }
         }
     </script>
@@ -326,7 +324,7 @@
         transform: translate(-50%, -50%);" class="schedule-btn" onclick="myFunction()">Switch Timezones</a>
     </div>
 
-    <div id="myDIV">
+    <div hidden id="myDIV">
         <section class="page-section container" id="Schedule" style="padding: 75px;">
             <h2 class="text-center mt-0">CST Schedule</h2>
             <hr class="divider my-4" />
