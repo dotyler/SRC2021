@@ -862,6 +862,13 @@ mark,
   background-color: #fcf8e3;
 }
 
+ul.icon_menu li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px;
+  padding: 2px;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
