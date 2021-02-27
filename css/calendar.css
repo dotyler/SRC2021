@@ -40,6 +40,15 @@
     font-family: 'Titillium Web';
     text-align: center;
 }
+
+.schedule-btn {
+    color: #fff;
+    background-color: var(--dark-orange);
+    padding: 3px 8px;
+    margin-right: 15px;
+    font-family: 'Titillium Web';
+    text-align: center;
+}
 .schedule-header span{
     display: inline-block;
     margin-right:25px;
