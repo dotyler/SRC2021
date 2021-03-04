@@ -1,105 +1,104 @@
-
 :root {
-    /* Site var colors */
-    --deep-sky-blue: #03a9f4;
-    --dark-orange: #f79007;
-    --dark-orange-hover: #f4623af4;
-    --light-sea-green: #00bf87; 
-    --blue-violet: #6632ff;
-    /* End of Site var colors */
-  
-    }
-
-.schedule-warp{
-    padding-right:20px;
-    padding-left:20px;
-    padding: 20px 30px;
-    border: solid 1px #ddd;
-    background-color: #f5f5f5;
-    -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
-    transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+  /* Site var colors */
+  --deep-sky-blue: #03a9f4;
+  --dark-orange: #f79007;
+  --dark-orange-hover: #f4623af4;
+  --light-sea-green: #00bf87;
+  --blue-violet: #6632ff;
+  /* End of Site var colors */
 }
-.schedule{
-    background-color:#fff;
+
+.schedule-warp {
+  /*padding-right: 20px;
+  padding-left: 20px;
+  padding: 20px 30px;*/
+  padding: 10% 10%;
+  border: solid 2px #ddd;
+  background-color: #f5f5f5;
+  -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.schedule {
+  background-color: #fff;
 }
 .schedule-warp:hover {
-    box-shadow: 0 6px 20px rgba(0,0,0,.07);
-    border: solid 1px var(--dark-orange-hover);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  border: solid 2px var(--dark-orange-hover);
 }
-.schedule{
-    padding:100px 0px;
-    background-color: #ecedf0;
-     font-family: 'Titillium Web';
+.schedule {
+  padding: 100px 0px;
+  background-color: #ecedf0;
+  /*font-family: 'Titillium Web';*/
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.schedule-tag{
-    color:#fff;
-    background-color: var(--dark-orange);
-    padding:3px 8px;
-    margin-right: 15px;
-    width: 110px;
-    font-family: 'Titillium Web';
-    text-align: center;
+.schedule-tag {
+  color: #fff;
+  background-color: var(--dark-orange);
+  padding: 3px 8px;
+  margin-right: 10px;
+  width: 130px;
+  /*font-family: 'Titillium Web';*/
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
 }
-
-.schedule-btn {
-    color: #fff;
-    background-color: var(--dark-orange);
-    padding: 3px 8px;
-    margin-right: 15px;
-    font-family: 'Titillium Web';
-    text-align: center;
+.schedule-header span {
+  display: inline-block;
+  margin-right: 25px;
 }
-.schedule-header span{
-    display: inline-block;
-    margin-right:25px;
+.schedule-header {
+  margin-bottom: 80px;
 }
-.schedule-header{
-    margin-bottom:80px;
-}
-.schedule-card{
-    position: relative;
-    margin-bottom: 0.7em;
+.schedule-card {
+  position: relative;
+  margin-bottom: 0.7em;
 }
 .schedule-card:hover .insidebox {
-    transform: scale(1.033);
-    /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1); */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.033);
+  /* box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .schedule-card:hover:after {
-    background: var(--dark-orange);
-    width: 25px;
+  background: var(--dark-orange);
+  width: 25px;
 }
 .schedule-card:after {
-    height: 2px;
-    width: 22px;
-    background: #ddd;
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -22px;
-    transition: all 0.3s ease-in;
+  height: 2px;
+  width: 22px;
+  background: #ddd;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -22px;
+  transition: all 0.3s ease-in;
 }
-.insidebox { 
-    box-shadow: 0 0px 5px rgba(0,0,0,.07);
-    background: #ffffff;
-    width: 100%;
-    height: auto;
-    display: flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: -o-flex;
-    -webkit-align-items: center;
-    align-items: center;
-    padding: 10px 20px;
-    color: var(--dark-orange);
-    transition: all 0.2s ease-in;
-/*    justify-content: center;*/
+.insidebox {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.07);
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: var(--dark-orange);
+  transition: all 0.2s ease-in;
+  /*    justify-content: center;*/
 }
 
-.day-one{
-    margin-bottom:50px;
-    font-weight: bold;
-    font-size: 20px;
-    color: var(--dark-orange);   
-    }
+.day-one {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--dark-orange);
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}

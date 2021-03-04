@@ -295,12 +295,19 @@
         </div>
     </section>
 
-    <!--Schedule Template-->
+       <!--Schedule Scripting Template-->
     <script>
         function myFunction() {
-            var x = document.getElementById("myDIV");
-            var y = document.getElementById("myDIV2");
-            
+            var w = document.getElementById("cst-title");
+            var x = document.getElementById("ESTsch");
+            var y = document.getElementById("CSTsch");
+            //changing the title
+            if (w.innerHTML === "EST Schedule") {
+                w.innerHTML = "CST Schedule";
+            } else {
+                w.innerHTML = "EST Schedule";
+            }
+            //changing the schedule
             if (x.style.display === "none") {
                 x.style.display = "block";
                 y.style.display = "none";
@@ -312,22 +319,24 @@
     </script>
 
     <div class="container">
-        <p style="margin-top: 20px;
+        <h2 id="cst-title" class="text-center mt-0" style="padding-top: 55px;">CST Schedule</h2>
+            <hr class="divider my-4" />
+        <p style="margin-top: 0px;
         position: absolute;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);">Click here to change the timezones</p>
-        <a style="margin-top: 50px;
+        <a style="margin-top: 20px;
         position: absolute;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);" class="schedule-btn" onclick="myFunction()">Switch Timezones</a>
     </div>
 
-    <div hidden id="myDIV">
-        <section class="page-section container" id="Schedule" style="padding: 75px;">
-            <h2 class="text-center mt-0">CST Schedule</h2>
-            <hr class="divider my-4" />
+    <!--Schedule Template-->
+    <div id="CSTsch" class="container">
+        <section class="container" id="Schedule" >
+
             <div class="row">
 
                 <div class="col-md-6">
@@ -452,11 +461,8 @@
             </div>
         </section>
     </div>
-    <div id="myDIV2">
-        <section class="page-section container" id="Schedule" style="padding: 75px;">
-            <h2 class="text-center mt-0">EST Schedule
-            </h2>
-            <hr class="divider my-4" />
+    <div id="ESTsch" class="container" style="display: none;">
+        <section class="container" id="Schedule" >
             <div class="row">
 
                 <div class="col-md-6">
@@ -581,7 +587,7 @@
             </div>
         </section>
     </div>
-    <!--Schedule Template-->
+    <!--End of Schedule Template-->
 
 
     <!-- Sponsor -->
