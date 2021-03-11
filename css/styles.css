@@ -44,6 +44,7 @@
   --silver: #bec2cb;
   --bronze: #cd7f32;
   --oac: #6c757d;
+  --affiliate: #8dc63f;
 
   /* End of Site var colors */
 
@@ -1042,7 +1043,7 @@ pre code {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1140px;
+    max-width: 1180px;
   }
 }
 .row {
@@ -5545,6 +5546,25 @@ a.badge-oac:focus,
 a.badge-oac.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem #6c757d80;
+}
+
+.badge-affiliate {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  background-color: var(--affiliate);
+}
+a.badge-affiliate:hover,
+a.badge-affiliate:focus {
+  color: #fff;
+  background-color: var(--affiliate);
+}
+a.badge-affiliate:focus,
+a.badge-affiliate.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #8dc63f80;
 }
 
 /*
