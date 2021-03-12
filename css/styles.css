@@ -5064,6 +5064,53 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+.contactUsContainer {
+  position:-webkit-sticky;
+}
+
+#contactUs {
+  position: absolute;
+  left: -75px;
+  width: 125px;
+
+  /*margin: 80px auto;*/
+  transition: 0.3s;
+  background-color: #ffe8cc;
+}
+
+#contactUs:hover {
+  left: 0;
+}
+
+.sidenav-items {
+  margin-left: 25px;
+}
+
+aside {
+  display: inline-block;
+  position: relative;
+  margin: 40px 0;
+}
+
+aside h3 {
+  /* Abs positioning makes it not take up vert space */
+  position: absolute;
+  top: 0;
+  left: 115px;
+  width: 200px;
+  text-align: center;
+  color: #343a40;
+
+  /* Border is the new background */
+  background: none;
+
+  /* Rotate from top left corner (not default) */
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+}
+
+
+
 .card {
   position: relative;
   display: flex;
