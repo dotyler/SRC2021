@@ -3870,7 +3870,7 @@ function checkUser() {
             brazenbutton.href = "https://app.brazenconnect.com/a/UFL-SASE/e/pPA3r";
             brazenbutton.onclick = "";
             brazenbutton.target = "_blank";
-            alert("Email valid! Click OK to proceed to the Brazen platform");
+            alert("Email valid! Click OK to proceed to the Brazen platform. If popups are disabled, reclick the Brazen button to proceed.");
             emailvalid = true;
         }
     }
@@ -3882,7 +3882,7 @@ function checkUser() {
         brazenbutton.href = "https://app.brazenconnect.com/a/UFL-SASE/e/pPA3r";
         brazenbutton.onclick = "";
         brazenbutton.target = "_blank";
-        alert("Thank you for all your hard work! Click OK to proceed to the Brazen platform");
+        alert("Thank you for all your hard work! Click OK to proceed to the Brazen platform. If popups are disabled, reclick the Brazen button to proceed.");
         emailvalid = true;
     }
 
