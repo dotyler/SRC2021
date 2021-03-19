@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^https?://(example.com|127\.0\.0\.1) [NC]
-RewriteRule ^subfolder/ - [L,F]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(.+\.)?src.ufsase\.com/ [NC]
+RewriteRule .*\.(js|css)$ - [NC,F,L]

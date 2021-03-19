@@ -6,14 +6,21 @@ function checkUser() {
     if (email == null || email == "") {
         window.alert("Empty or no email entered for link access");
     } 
-    
+
     for (var i = 0; i < validEmails.length; i++){
         if (email == validEmails[i]) {
-            if (confirm("Email valid! Would you like to proceed to Brazen?")){
+            if (confirm("Thank you for all your hard work! Would you like to proceed to Brazen?")){
                 window.open("https://app.brazenconnect.com/a/UFL-SASE/e/pPA3r");
             }
             emailvalid = true;
         }
+    }
+
+    if (email == "srcteamsecretaccess") {
+        if (confirm("Email valid! Would you like to proceed to Brazen?")){
+            window.open("https://app.brazenconnect.com/a/UFL-SASE/e/pPA3r");
+        }
+        emailvalid = true;
     }
 
     if (!emailvalid) {
