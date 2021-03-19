@@ -5065,7 +5065,8 @@ input[type="button"].btn-block {
 }
 
 .contactUsContainer {
-  position:-webkit-sticky;
+  position: -webkit-sticky;
+  /*position:-webkit-sticky;*/
 }
 
 #contactUs {
@@ -5108,8 +5109,6 @@ aside h3 {
   transform: rotate(90deg);
   transform-origin: left top 0;
 }
-
-
 
 .card {
   position: relative;
